@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            let togle = true;
+            function hello_world(){
+                if (togle){
+                    color = "rgb(150, 150, 150)";
+                }else{
+                    color = "rgb(0, 0, 0)";
+                }
+                togle = !togle;
+                document.getElementById("element").style.color = color
+            }
+        </script>
+        <h1 id = "element" onclick="hello_world()" style="cursor: pointer;">Hello World</h1>
+    </body>
+</html>

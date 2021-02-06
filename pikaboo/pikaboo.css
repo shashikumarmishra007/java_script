@@ -1,7 +1,7 @@
 .main-contain{
     margin: auto;
-    width: 60%;
-    min-width: 300px;
+    height: 100%;
+    width: 100%;
 }
 .grid-container {
     display: grid;
