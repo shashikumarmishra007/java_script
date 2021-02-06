@@ -1,0 +1,26 @@
+.main-contain{
+    margin: auto;
+    width: 70%;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 5px;
+  }
+.right {
+    text-align: right;
+  }
+.left {
+    text-align: left;
+  }
+.center {
+    text-align: center;
+  }
+.color-border {
+    border: 2px solid rgba(150, 150, 150);
+    border-radius: 15px;
+}
+.photo-size {
+    width: 80%;
+    height: 500px;
+}
